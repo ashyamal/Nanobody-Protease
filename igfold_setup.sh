@@ -1,3 +1,5 @@
+#!/bin/sh
+
 pip install igfold
 git clone git@github.com:Graylab/IgFold.git
 pip install IgFold
