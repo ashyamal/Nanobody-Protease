@@ -14,7 +14,7 @@ for s in nano_seq:
     igfold = IgFoldRunner()
     igfold.fold(
         pred_pdb, # Output PDB file
-        sequences=sequences, # Nanobody sequence
-        do_refine=False, # Refine the antibody structure with PyRosetta
-        do_renum=False, # Renumber predicted antibody structure (Chothia)
+        sequences = sequences, # Nanobody sequence
+        do_refine = False, # Refine the antibody structure with PyRosetta
+        do_renum = False, # Renumber predicted antibody structure (Chothia)
     )
